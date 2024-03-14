@@ -1,0 +1,8 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "typeRoots": ["./typings", "./node_modules/@types"]
+  },
+  "include": ["src", "typings"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}
