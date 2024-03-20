@@ -1,4 +1,4 @@
-declare module "firstApp/remoteEntry" {
+declare module "FirstApp/remoteEntry" {
   import { FC } from "react";
   export const FirstApp: FC;
 }

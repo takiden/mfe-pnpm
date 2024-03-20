@@ -12,13 +12,14 @@ export default defineConfig({
       filename: "remoteEntry.js", // default file name
       // Modules to expose
       exposes: {
-        FirstApp: "./src/App.tsx",
+        "./FirstApp": "./src/App.tsx",
       },
       shared: ["react", "react-dom"], // libs/deps to be shared
     }),
   ],
   build: {
     target: "esnext",
+    outDir: "dist",
   },
   // resolve: {
   //   alias: {

@@ -1,6 +1,6 @@
 import "./App.css";
-import { FirstApp } from "firstApp/remoteEntry";
-import { SecondApp } from "secondApp/remoteEntry";
+import { FirstApp } from "FirstApp/remoteEntry";
+import { SecondApp } from "SecondApp/remoteEntry";
 
 function App() {
   return (

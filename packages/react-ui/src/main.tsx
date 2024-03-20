@@ -8,3 +8,4 @@ import "./index.css";
 
 export { default as MyTitle } from "./MyTitle/my-title";
 export { default as MyGreeting } from "./MyGreeting/my-greeting";
+export { default as MyInput } from "./MyInput/my-input";
